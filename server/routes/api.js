@@ -1,6 +1,6 @@
 const express = require ('express')
 const router = express.Router()
 
-router.use('/routeGoesHere', require('./routeGoesHere'))
+router.use('/googleApi', require('./googleApi'))
 
-module.exports = router
+module.exports = router;

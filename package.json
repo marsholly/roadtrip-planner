@@ -2,10 +2,10 @@
   "name": "roadtrip-planner",
   "version": "1.0.0",
   "description": "A web application to help plan road trips",
-  "main": "app.js",
+  "main": "server/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node server/app.js"
   },
   "engines": {
     "node": "6"
@@ -14,6 +14,7 @@
   "author": "Daniel Campbell & Holly Zhou",
   "license": "ISC",
   "dependencies": {
+    "@google/maps": "^0.2.1",
     "axios": "^0.15.0",
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
@@ -27,6 +28,7 @@
     "file-loader": "^0.9.0",
     "flux": "^3.0.0",
     "moment": "^2.15.1",
+    "mongoose": "^4.5.9",
     "morgan": "^1.7.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
